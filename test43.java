@@ -20,9 +20,7 @@ public class test43 {
                         str[0].equals("S") && str[1].equals("P") ||
                         str[0].equals("P") && str[1].equals("R")) {
                     Player1++;
-                } else if (str[1].equals("R") && str[0].equals("S") ||
-                        str[1].equals("S") && str[0].equals("P") ||
-                        str[1].equals("P") && str[0].equals("R")) {
+                } else if (!str[0].equals(str[1])) {
                     Player2++;
                 } else {
                 }
