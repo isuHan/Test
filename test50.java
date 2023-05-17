@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 
 public class test50 {
     public static void main(String[] args) throws IOException {
+        //계산기
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int sum = Integer.parseInt(br.readLine());
